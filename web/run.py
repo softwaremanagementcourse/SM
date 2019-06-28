@@ -17,4 +17,4 @@ def run():
         return jsonify(status='ok', result=results.get_best_classifier().__repr__())
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=8888)
