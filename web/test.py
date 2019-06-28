@@ -9,3 +9,4 @@ if __name__ == "__main__":
     #str = results.describe()
     str = results.get_best_classifier().__repr__()
     print str
+    print "hello world"
